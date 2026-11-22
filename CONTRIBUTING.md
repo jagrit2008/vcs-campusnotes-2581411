@@ -25,7 +25,7 @@ git commit -m "docs: update contribution guidelines"
 
 ## Submitting Changes
 
-1. Stage your changes using git add.
+1. Stage a modified file using `git add CONTRIBUTING.md`.
 2. Commit changes with a descriptive message.
 3. Push your feature branch to GitHub.
 4. Open a pull request with a clear description.
