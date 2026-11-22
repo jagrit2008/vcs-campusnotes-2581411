@@ -1,1 +1,1 @@
-This file verifies successful cloning of CampusNotes.
+This file verifies successful Git repository cloning.
