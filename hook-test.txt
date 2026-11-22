@@ -1,0 +1,1 @@
+This file demonstrates successful Git hook validation.

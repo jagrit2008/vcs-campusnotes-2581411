@@ -1,0 +1,12 @@
+#!/bin/sh
+
+echo "Running pre-commit checks..."
+
+if git grep --cached -n -I -E 'TODO|FIXME' -- . ':(exclude).githooks/**'; then
+    echo "ERROR: Commit rejected!"
+    echo "Staged files contain TODO or FIXME."
+    exit 1
+fi
+
+echo "Pre-commit check passed."
+exit 0
